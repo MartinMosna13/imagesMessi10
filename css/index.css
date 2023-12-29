@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container-xxl {
+    text-align: center;
+    background-image: url("https://www.xtrafondos.com/wallpapers/resized/lionel-messi-con-trofeo-copa-mundial-fifa-11267.jpg?s=large");
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-xxl img {
+    width: 3.75rem;
+}
+
+#seccion {
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+.fs-1 {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    float: left;
+    background-color: rgb(109, 177, 255);
+    padding: 10px;
+    margin-left: 4px;
+    font-weight: bold;
+}
+
+
+.fs-3 {
+    background-color: rgb(109, 177, 255);
+    float: right;
+    position: relative;
+    top: 400px;
+    color: white;
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+.fs-4 {
+    background-color: rgb(109, 177, 255);
+    float: right;
+    position: relative;
+    top: 420px;
+    color: white;
+    padding: 10px;
+    padding-right: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.fs-4:hover {
+    background-color: white;
+    color:rgb(109, 177, 255);
+
+}
+
+@media (max-width: 427px) {
+    .fs-3 {
+        top: 300px;
+    }
+
+    .fs-4 {
+        top: 320px;
+    }
+}
+@media (max-width: 367px) {
+    .fs-3 {
+        top: 250px;
+    }
+
+    .fs-4 {
+        top: 270px;
+    }
+}
+
+
+
+.container{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.87rem;
+    color: white;
+    padding: 20px;
+    background-image: url('https://www.leparisien.fr/resizer/xjj2PTJ3TBOC2M6UqPNCKRSQdDc=/400x300/arc-anglerfish-eu-central-1-prod-leparisien.s3.amazonaws.com/public/TNENRTXFA5TV5KYQJAYP7LAAUQ.jpg');   /*https: //www.clarin.com/img/2022/12/13/gPMhv0zlQ_720x0__1.jpg https: //www.ole.com.ar/2022/11/22/l3CgMg-gb_860x575__1.jpg*/
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container a {
+    text-align: center;
+    text-decoration: none;
+}
+.col a:hover{
+    background-color: #b1bbad;
+}
+
+.container-fluid {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 100px;
+}
+
+.container-fluid span {
+    color: brown;
+}
+
+.col img {
+    width: 440px;
+    height: 350px;
+    transition: transform 1s ease;
+    margin-bottom: 6px;
+}
+.col img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transform: scale(1.04);
+    box-shadow: 0 0 15px rgb(249, 249, 255) ;
+}
+
+.fs-4 {
+    animation: pulse 2s infinite;
+    right: 10px;
+}
+
+footer {
+    margin-top: 250px;
+    background-color: rgb(49, 100, 209);
+    width: 100%;
+    height: 25px;
+}
+
+footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+}
+
+footer img {
+    margin-left: 10px;
+    width: 2%;
+    height: 15px;
+    animation: pulse 2s infinite;
+}
+
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
