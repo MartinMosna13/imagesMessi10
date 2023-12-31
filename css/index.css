@@ -56,6 +56,7 @@ body {
     padding: 10px;
     padding-right: 20px;
     font-family: 'Playfair Display', serif;
+    transition: background-color 300ms;
 }
 
 .fs-4:hover {
